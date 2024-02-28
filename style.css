@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Suwannaphum:wght@100;300;400;700;900&display=swap");
+
+/*
+font-family: "Suwannaphum", serif;
+font-family: "Inter", sans-serif;
+*/
+
+body {
+  margin: 10px;
+  background-color: #1a1a1a;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 67px;
+  border: 1px solid #f3efe0;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.left-side {
+  display: flex;
+  float: left;
+  gap: 5px;
+}
+
+.right-side {
+  float: right;
+}
+
+.button1,
+.button2,
+.button3 {
+  flex-grow: 0;
+  border: #f3efe0 1px solid;
+  border-radius: 67px;
+}
+
+.button1,
+.button2,
+.button3,
+h2 {
+  margin: 0;
+  color: #f3efe0;
+  font-weight: 300;
+}
+
+.button1 {
+  padding: 30px 150px;
+  background: #363636;
+}
+
+.button2 {
+  padding: 30px 200px;
+  background: #846350;
+}
+
+.button3 {
+  padding: 30px 130px;
+  background: #1a1a1a;
+}
+
+.parent {
+  height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 4;
+}
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div4 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.div1 {
+  background-color: #f3efe0;
+  border-radius: 31px;
+  text-align: center;
+}
+
+.div2 {
+  background-color: #8e8868;
+  border-radius: 31px;
+  text-align: center;
+}
+
+.div3 {
+  background-color: #966c54;
+  border-radius: 31px;
+  text-align: center;
+}
+
+.div4 {
+  background-color: #b5a38b;
+  border-radius: 31px;
+  text-align: center;
+}
+
+
+.div1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-transform: uppercase;
+  border: #1a1a1a 1px solid;
+  border-radius: 27px;
+  font-family: "Inter", sans-serif;
+  color: #1a1a1a;
+  padding: 2px 5px;
+  margin-left: 20px;
+  width: fit-content;
+}
+
+.desc {
+  font-family: "Suwannaphum", serif;
+  color: #332616;
+  font-size: 32px;
+  text-align: left;
+  line-height: 1.1;
+  padding-left: 25px;
+  font-weight: 600;
+}
+
+.center-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.div1-image {
+  width: 95%;
+  height: 500px;
+  background-image: url(./assets/map.jpg);
+  border-radius: 27px;
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: center;
+}
+
+.more-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  border-top: 1px solid #1a1a1a;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.more-option h2 {
+  color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.div2-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.div2-sideded {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.div2-left-side {
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.div2-img {
+  width: 90%;
+  height: 90%;
+}
+
+.bigdesc {
+  font-family: "Suwannaphum", serif;
+  color: #332616;
+  font-size: 64px;
+  margin: 0;
+  text-align: left;
+}
+.longdesc{
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #1a1a1a;
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  width: 700px;
+}
